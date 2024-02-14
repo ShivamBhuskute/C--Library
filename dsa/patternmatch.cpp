@@ -8,7 +8,7 @@ int f(int l, int r, string s, string t)
 {
     l = 0, r = 0;
     int ans = 0;
-    for (int i = 0; i < s.size();i++)
+    for (int i = 0; i < s.size(); i++)
     {
         ans++;
         if (s[l] == t[r])
@@ -25,7 +25,8 @@ int f(int l, int r, string s, string t)
             l++;
         }
     }
-    if(r == t.size()) {
+    if (r == t.size())
+    {
         return ans - r;
     }
     return -1;
