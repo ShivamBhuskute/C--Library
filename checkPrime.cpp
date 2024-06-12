@@ -39,6 +39,8 @@ int main()
     cout << "Enter a number N: ";
     cin >> N;
 
+    // isPrime(N) ? cout << "It is prime" :  cout << "It's not prime";
+
     if (isPrime(N))
     {
         cout << N << " is a prime number.\n";
