@@ -1,13 +1,16 @@
 #include <iostream>
 using namespace std;
-class me{
-    public:
+class me
+{
+public:
     int age;
     string name;
 };
-int main(){
+int main()
+{
     me shivam;
     cin >> shivam.age >> shivam.name;
-    cout << shivam.age << "\n" << shivam.name;     
-return 0;
+    cout << shivam.age << "\n"
+         << shivam.name;
+    return 0;
 }
