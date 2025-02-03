@@ -1,6 +1,7 @@
 #include <iostream>
 
 [[nodiscard]] int add(int a, int b) { return a + b; }
+// This tells the compiler that it's important to use the return value of this function. 
 
 int multiply(int a, int b) { return a * b; }
 
