@@ -1,6 +1,6 @@
+#include <climits>
 #include <iostream>
 #include <vector>
-#include <climits>
 using namespace std;
 
 // int f(char arr[], int n)
@@ -8,7 +8,8 @@ using namespace std;
 //     int cnt = 0;
 //     for (int i = 0; i < n; i++)
 //     {
-//         if (arr[i] == 'a' || arr[i] == 'e' ||  arr[i] == 'i' ||  arr[i] == 'o' ||  arr[i] == 'u')
+//         if (arr[i] == 'a' || arr[i] == 'e' ||  arr[i] == 'i' ||  arr[i] ==
+//         'o' ||  arr[i] == 'u')
 //         {
 //             cnt += 1;
 //         }
@@ -26,20 +27,16 @@ using namespace std;
 //     return 0;
 // }
 
-int main()
-{
+int main() {
     int size = 5;
     char arr[size] = {'a', 'e', 'i', 'o', 'a'};
 
     int cnt = 0;
-    for (int i = 0; i < size; i++)
-    {
-        if (arr[i] == 'a' || arr[i] == 'e' ||  arr[i] == 'i' ||  arr[i] == 'o' ||  arr[i] == 'u')
-        {
+    for (int i = 0; i < size; i++) {
+        if (arr[i] == 'a' || arr[i] == 'e' || arr[i] == 'i' || arr[i] == 'o' ||
+            arr[i] == 'u') {
             cnt = cnt + 1;
         }
     }
     cout << cnt;
-
-
 }
